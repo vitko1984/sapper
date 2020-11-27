@@ -12,7 +12,7 @@
 <h2 class="white-text">Кнопка</h2>
 <div><Button props={{className: ""}}>Кнопка</Button></div>
 
-<h2 class="white-text">Предложение</h2>
+<h2 class="white-text">Предложить</h2>
 <div><Suggest options={['eenie', 'meenie', 'miney', 'mo']} /></div>
 
 <h2 class="white-text">Рейтинг</h2>
