@@ -37,10 +37,10 @@
 </style>
 
 <svelte:head>
-	<title>Sapper project template</title>
+	<title>Sapper-проект</title>
 </svelte:head>
 
-<h1>Great success!</h1>
+<h1>Большой успех!</h1>
 
 <figure>
 	<img alt="Success Kid" src="{successkid}">
