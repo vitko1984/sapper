@@ -18,7 +18,7 @@
         <Todo {todo} on:remove={e => removeTodo(e.detail)} on:update={e => updateTodo(e.detail)} />
       </li>
       {:else}
-        <li>Здесь нечего делать!</li>
+        <li>Здесь делать нечего!</li>
       {/each}
     </ul>
   
