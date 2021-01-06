@@ -1,12 +1,14 @@
 <script>
-import { tick } from 'svelte';
+//import { tick } from 'svelte';
 
 import { selectOnFocus } from '../../scripts/actions.js';
+//import type { TodoType } from '../types/todo.type';
 
 import { createEventDispatcher } from 'svelte';
 const dispatch = createEventDispatcher();
 
 export let todo;
+//export let todo: TodoType;
 let editing = false; // track editing mode
 let name = todo.name; // hold the name of the todo being edited
 let nameEl;

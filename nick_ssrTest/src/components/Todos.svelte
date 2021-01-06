@@ -40,7 +40,7 @@
     import { alert } from '../stores/store.js';
 
     export let todos = [];
-    let newTodoName = '';
+    //let newTodoName = '';
     let newTodoId;
     let todosStatus;                   // reference to TodosStatus instance
     $: todos.length ? Math.max(...todos.map(t => t.id)) + 1 : 1;
